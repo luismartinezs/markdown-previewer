@@ -1,0 +1,84 @@
+.App {
+    text-align: center;
+    padding: 10px;
+}
+
+/* .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
+
+#editor-title, #editor {
+  width: 80%;
+  max-width: 600px;
+}
+
+#editor-title {
+  text-align: left;
+}
+
+#editor {
+  height: 300px;
+  margin: 2rem, auto, 2rem, auto;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-image: repeating-linear-gradient(45deg, hsl(0, 0%, 99%), hsl(0, 0%, 100%) 40px, hsl(0, 0%, 98%) 40px, hsl(0, 0%, 96%) 80px);
+  font-size: 1.2rem;
+  resize: vertical;
+}
+
+#preview, #preview-title {
+  width: 80%;
+  max-width: 900px;
+}
+
+#preview-title {
+  text-align: left;
+}
+
+#preview {
+
+  height: auto;
+  margin: 2rem, auto, 2rem, auto;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  text-align: left;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  overflow: auto;
+}
+
+.spacer {
+  height: 10px;
+}
+
+table, thead, tr, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 1px 3px;
+}
+
